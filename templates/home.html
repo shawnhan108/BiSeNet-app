@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Face Parser</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+  
+</head>
+
+<body>
+  <div>
+    <div class="login">
+      <h1>Face Parser</h1>
+        <form action="{{ url_for('predict')}}"method="POST"enctype="multipart/form-data">
+          <!-- <input type="text" name="age" placeholder="Age" /> -->
+          <input type="file" id="myFile" name="img" required="required" ><br>
+          <button type="submit" class="btn btn-primary btn-block btn-large">Parse!</button>
+          <img src="data:image/PNG;base64,{{img}}" width = "{{orig_w}}", height = "{{orig_h}}", alt="(Parsed image will be shown here)" onerror="this.style.display='none'">
+        </form>
+      <br>
+      <br>
+    </div>
+  </div>
+</body>
+</html>
