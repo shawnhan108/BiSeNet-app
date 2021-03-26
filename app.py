@@ -2,7 +2,6 @@ import io
 import base64
 
 from flask import Flask,request, url_for, redirect, render_template, jsonify
-import pandas as pd
 import numpy as np
 from PIL import Image
 import cv2
