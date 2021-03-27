@@ -1,4 +1,5 @@
 # BiSeNet-app
+A face semantic segmentation Flask app deployed in a docker container on GCP Container Registry and a Kubernetes Engine cluster.
 
 ## Purpose
 This app is built to parse an image that contains a human face to a labeled mask of the face. The face is segmented into multiple classes, labelled by colours.
