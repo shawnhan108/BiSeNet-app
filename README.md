@@ -19,6 +19,7 @@ The image segmentation model is defined in a 2018 paper [*BiSeNet: Bilateral Seg
 | General Structure | Detailed Illustration |
 | ------------- | ------------- |
 | ![What is this](./assets/model_desc1.png)  | ![What is this](./assets/model_desc2.png)|
+Figures above are authored in and extracted from the original paper.
 
 ## Deployment Details
 The app is deployed on GCP Kubernetes Engine. The cluster is configured to have 2 nodes, on 4 vCPUs in *us-central1-a*, with 8GB memory. The inference time on the provided test inference image is around 2 seconds. Currently the app is running at http://35.224.225.42/ , which will soon be (or, more like, has already been) shut down for resource conservation.
