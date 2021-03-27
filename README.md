@@ -19,6 +19,7 @@ The image segmentation model is defined in a 2018 paper [*BiSeNet: Bilateral Seg
 | General Structure | Detailed Illustration |
 | ------------- | ------------- |
 | ![What is this](./assets/model_desc1.png)  | ![What is this](./assets/model_desc2.png)|
+
 Figures above are authored in and extracted from the original paper.
 
 ## Deployment Details
