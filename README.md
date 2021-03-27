@@ -47,3 +47,4 @@ To deploy this app, follow the procedure below in a GCP console terminal:
 ## References and Acknowledgements
 * Moez Ali's *towards data science* tutorial [*Deploy Machine Learning Pipeline on Google Kubernetes Engine*](https://towardsdatascience.com/deploy-machine-learning-model-on-google-kubernetes-engine-94daac85108b), as well as its [affiliated repo](https://github.com/pycaret/pycaret-deployment-google).
 * Changqian Yu et al.'s 2018 paper [*BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation*](https://arxiv.org/abs/1808.00897), and its [affiliated repo](https://github.com/agermanidis/face-parsing.PyTorch) by Anastasis Germanidis.
+* A [Kubernetes Youtube tutorial](https://www.youtube.com/watch?v=X48VuDVv0do) by [TechWorld with Nana](https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA).
